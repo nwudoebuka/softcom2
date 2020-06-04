@@ -1,0 +1,857 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10901E7C5E8FF8F0855A50CD /* Pods_IbakatvTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FB471767B1344DF9868F8D /* Pods_IbakatvTests.framework */; };
+		71C74DBB22982747005DC59A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C74DBA22982747005DC59A /* AppDelegate.swift */; };
+		71C74DBD22982747005DC59A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C74DBC22982747005DC59A /* ViewController.swift */; };
+		71C74DC022982747005DC59A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71C74DBE22982747005DC59A /* Main.storyboard */; };
+		71C74DC322982747005DC59A /* Ibakatv.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 71C74DC122982747005DC59A /* Ibakatv.xcdatamodeld */; };
+		71C74DC52298274B005DC59A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71C74DC42298274B005DC59A /* Assets.xcassets */; };
+		71C74DC82298274B005DC59A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71C74DC62298274B005DC59A /* LaunchScreen.storyboard */; };
+		71C74DD32298274B005DC59A /* IbakatvTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C74DD22298274B005DC59A /* IbakatvTests.swift */; };
+		71C74DDE2298274B005DC59A /* IbakatvUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C74DDD2298274B005DC59A /* IbakatvUITests.swift */; };
+		71C74DF222982F5F005DC59A /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C74DF122982F5F005DC59A /* ViewControllerExtension.swift */; };
+		71C74DFF22991F03005DC59A /* PageOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C74DFE22991F03005DC59A /* PageOneViewController.swift */; };
+		71CE4F9B229A86EC0017BB48 /* PageTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CE4F9A229A86EC0017BB48 /* PageTwoViewController.swift */; };
+		71CE4F9D229A8B960017BB48 /* PageThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CE4F9C229A8B960017BB48 /* PageThreeViewController.swift */; };
+		71CE4F9F229AA5B50017BB48 /* Snackbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CE4F9E229AA5B50017BB48 /* Snackbar.swift */; };
+		73FDE046F7DF373D7924AFE0 /* Pods_Ibakatv.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C091675E8A1CFBE5CE4BC8 /* Pods_Ibakatv.framework */; };
+		9C183D20C4A5F60F0D635EED /* Pods_IbakatvUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D5FE3D937BDF04E6E0ABCD0 /* Pods_IbakatvUITests.framework */; };
+		DD0358612487DA09001FBFC7 /* pet_adoption.json in Resources */ = {isa = PBXBuildFile; fileRef = DD0358602487DA09001FBFC7 /* pet_adoption.json */; };
+		DD0358662487DE9B001FBFC7 /* PageOneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0358652487DE9B001FBFC7 /* PageOneController.swift */; };
+		DD0358682487DEB1001FBFC7 /* PageOneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0358672487DEB1001FBFC7 /* PageOneModel.swift */; };
+		DD03586B2487E201001FBFC7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD03586A2487E201001FBFC7 /* Constants.swift */; };
+		DD03587524892C72001FBFC7 /* PageTwoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD03587424892C72001FBFC7 /* PageTwoModel.swift */; };
+		DD03587724893C9E001FBFC7 /* PageTwoControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD03587624893C9E001FBFC7 /* PageTwoControl.swift */; };
+		DD03587924894197001FBFC7 /* PageThreeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD03587824894197001FBFC7 /* PageThreeModel.swift */; };
+		DD03587B2489449B001FBFC7 /* PageThreeControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD03587A2489449B001FBFC7 /* PageThreeControl.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71C74DCF2298274B005DC59A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71C74DAF22982747005DC59A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71C74DB622982747005DC59A;
+			remoteInfo = Ibakatv;
+		};
+		71C74DDA2298274B005DC59A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71C74DAF22982747005DC59A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71C74DB622982747005DC59A;
+			remoteInfo = Ibakatv;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1102ADF3E9D8AE273F6A278C /* Pods-IbakatvTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IbakatvTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IbakatvTests/Pods-IbakatvTests.release.xcconfig"; sourceTree = "<group>"; };
+		384C28EF509B41EF162BBD26 /* Pods-Ibakatv.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ibakatv.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ibakatv/Pods-Ibakatv.release.xcconfig"; sourceTree = "<group>"; };
+		6D5FE3D937BDF04E6E0ABCD0 /* Pods_IbakatvUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IbakatvUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71C74DB722982747005DC59A /* softcom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = softcom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71C74DBA22982747005DC59A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71C74DBC22982747005DC59A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		71C74DBF22982747005DC59A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71C74DC222982747005DC59A /* Ibakatv.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ibakatv.xcdatamodel; sourceTree = "<group>"; };
+		71C74DC42298274B005DC59A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71C74DC72298274B005DC59A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71C74DC92298274B005DC59A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71C74DCE2298274B005DC59A /* IbakatvTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IbakatvTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71C74DD22298274B005DC59A /* IbakatvTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IbakatvTests.swift; sourceTree = "<group>"; };
+		71C74DD42298274B005DC59A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71C74DD92298274B005DC59A /* IbakatvUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IbakatvUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71C74DDD2298274B005DC59A /* IbakatvUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IbakatvUITests.swift; sourceTree = "<group>"; };
+		71C74DDF2298274B005DC59A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71C74DF122982F5F005DC59A /* ViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
+		71C74DFE22991F03005DC59A /* PageOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageOneViewController.swift; sourceTree = "<group>"; };
+		71CE4F9A229A86EC0017BB48 /* PageTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTwoViewController.swift; sourceTree = "<group>"; };
+		71CE4F9C229A8B960017BB48 /* PageThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageThreeViewController.swift; sourceTree = "<group>"; };
+		71CE4F9E229AA5B50017BB48 /* Snackbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snackbar.swift; sourceTree = "<group>"; };
+		84C091675E8A1CFBE5CE4BC8 /* Pods_Ibakatv.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ibakatv.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6FB471767B1344DF9868F8D /* Pods_IbakatvTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IbakatvTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B03B935ECE26EB591EA02615 /* Pods-IbakatvUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IbakatvUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IbakatvUITests/Pods-IbakatvUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BBE917145BF13DD3ECF680A4 /* Pods-Ibakatv.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ibakatv.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ibakatv/Pods-Ibakatv.debug.xcconfig"; sourceTree = "<group>"; };
+		C433A7528839B690285DE384 /* Pods-IbakatvUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IbakatvUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IbakatvUITests/Pods-IbakatvUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DD0358602487DA09001FBFC7 /* pet_adoption.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pet_adoption.json; sourceTree = "<group>"; };
+		DD0358652487DE9B001FBFC7 /* PageOneController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageOneController.swift; sourceTree = "<group>"; };
+		DD0358672487DEB1001FBFC7 /* PageOneModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageOneModel.swift; sourceTree = "<group>"; };
+		DD03586A2487E201001FBFC7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DD03587424892C72001FBFC7 /* PageTwoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTwoModel.swift; sourceTree = "<group>"; };
+		DD03587624893C9E001FBFC7 /* PageTwoControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTwoControl.swift; sourceTree = "<group>"; };
+		DD03587824894197001FBFC7 /* PageThreeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageThreeModel.swift; sourceTree = "<group>"; };
+		DD03587A2489449B001FBFC7 /* PageThreeControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageThreeControl.swift; sourceTree = "<group>"; };
+		E7797F79E878B504DE4B801D /* Pods-IbakatvTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IbakatvTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IbakatvTests/Pods-IbakatvTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71C74DB422982747005DC59A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73FDE046F7DF373D7924AFE0 /* Pods_Ibakatv.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71C74DCB2298274B005DC59A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10901E7C5E8FF8F0855A50CD /* Pods_IbakatvTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71C74DD62298274B005DC59A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C183D20C4A5F60F0D635EED /* Pods_IbakatvUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F907E866E53C6B5416E3B1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBE917145BF13DD3ECF680A4 /* Pods-Ibakatv.debug.xcconfig */,
+				384C28EF509B41EF162BBD26 /* Pods-Ibakatv.release.xcconfig */,
+				E7797F79E878B504DE4B801D /* Pods-IbakatvTests.debug.xcconfig */,
+				1102ADF3E9D8AE273F6A278C /* Pods-IbakatvTests.release.xcconfig */,
+				B03B935ECE26EB591EA02615 /* Pods-IbakatvUITests.debug.xcconfig */,
+				C433A7528839B690285DE384 /* Pods-IbakatvUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		71C74DAE22982746005DC59A = {
+			isa = PBXGroup;
+			children = (
+				71C74DB922982747005DC59A /* Ibakatv */,
+				71C74DD12298274B005DC59A /* IbakatvTests */,
+				71C74DDC2298274B005DC59A /* IbakatvUITests */,
+				71C74DB822982747005DC59A /* Products */,
+				1F907E866E53C6B5416E3B1B /* Pods */,
+				FBD6EC3971821C9A0F1D5030 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		71C74DB822982747005DC59A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71C74DB722982747005DC59A /* softcom.app */,
+				71C74DCE2298274B005DC59A /* IbakatvTests.xctest */,
+				71C74DD92298274B005DC59A /* IbakatvUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71C74DB922982747005DC59A /* Ibakatv */ = {
+			isa = PBXGroup;
+			children = (
+				DD0358602487DA09001FBFC7 /* pet_adoption.json */,
+				DD0358642487DE68001FBFC7 /* Model */,
+				71C74DF0229827DE005DC59A /* Views */,
+				71C74DEF229827D7005DC59A /* Controllers */,
+				71C74DEE229827C3005DC59A /* Lib */,
+				DD0358692487E1D7001FBFC7 /* Utils */,
+				71C74DEC229827B4005DC59A /* Helpers */,
+				71C74DEB229827AA005DC59A /* Extensions */,
+				71C74DBA22982747005DC59A /* AppDelegate.swift */,
+				71C74DC42298274B005DC59A /* Assets.xcassets */,
+				71C74DC92298274B005DC59A /* Info.plist */,
+				71C74DC122982747005DC59A /* Ibakatv.xcdatamodeld */,
+			);
+			path = Ibakatv;
+			sourceTree = "<group>";
+		};
+		71C74DD12298274B005DC59A /* IbakatvTests */ = {
+			isa = PBXGroup;
+			children = (
+				71C74DD22298274B005DC59A /* IbakatvTests.swift */,
+				71C74DD42298274B005DC59A /* Info.plist */,
+			);
+			path = IbakatvTests;
+			sourceTree = "<group>";
+		};
+		71C74DDC2298274B005DC59A /* IbakatvUITests */ = {
+			isa = PBXGroup;
+			children = (
+				71C74DDD2298274B005DC59A /* IbakatvUITests.swift */,
+				71C74DDF2298274B005DC59A /* Info.plist */,
+			);
+			path = IbakatvUITests;
+			sourceTree = "<group>";
+		};
+		71C74DEB229827AA005DC59A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		71C74DEC229827B4005DC59A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				71C74DF122982F5F005DC59A /* ViewControllerExtension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		71C74DEE229827C3005DC59A /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				71CE4F9E229AA5B50017BB48 /* Snackbar.swift */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		71C74DEF229827D7005DC59A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DD0358652487DE9B001FBFC7 /* PageOneController.swift */,
+				DD03587624893C9E001FBFC7 /* PageTwoControl.swift */,
+				DD03587A2489449B001FBFC7 /* PageThreeControl.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		71C74DF0229827DE005DC59A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				71C74DBC22982747005DC59A /* ViewController.swift */,
+				71C74DFE22991F03005DC59A /* PageOneViewController.swift */,
+				71CE4F9A229A86EC0017BB48 /* PageTwoViewController.swift */,
+				71CE4F9C229A8B960017BB48 /* PageThreeViewController.swift */,
+				71C74DBE22982747005DC59A /* Main.storyboard */,
+				71C74DC62298274B005DC59A /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DD0358642487DE68001FBFC7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DD0358672487DEB1001FBFC7 /* PageOneModel.swift */,
+				DD03587424892C72001FBFC7 /* PageTwoModel.swift */,
+				DD03587824894197001FBFC7 /* PageThreeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DD0358692487E1D7001FBFC7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DD03586A2487E201001FBFC7 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FBD6EC3971821C9A0F1D5030 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84C091675E8A1CFBE5CE4BC8 /* Pods_Ibakatv.framework */,
+				A6FB471767B1344DF9868F8D /* Pods_IbakatvTests.framework */,
+				6D5FE3D937BDF04E6E0ABCD0 /* Pods_IbakatvUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71C74DB622982747005DC59A /* Ibakatv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71C74DE22298274B005DC59A /* Build configuration list for PBXNativeTarget "Ibakatv" */;
+			buildPhases = (
+				AD7319C2B04DD31EB0AC865A /* [CP] Check Pods Manifest.lock */,
+				71C74DB322982747005DC59A /* Sources */,
+				71C74DB422982747005DC59A /* Frameworks */,
+				71C74DB522982747005DC59A /* Resources */,
+				8FD1517F56764B59DDBB2073 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ibakatv;
+			productName = Ibakatv;
+			productReference = 71C74DB722982747005DC59A /* softcom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71C74DCD2298274B005DC59A /* IbakatvTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71C74DE52298274B005DC59A /* Build configuration list for PBXNativeTarget "IbakatvTests" */;
+			buildPhases = (
+				C8D680A6501CF95414F7EE09 /* [CP] Check Pods Manifest.lock */,
+				71C74DCA2298274B005DC59A /* Sources */,
+				71C74DCB2298274B005DC59A /* Frameworks */,
+				71C74DCC2298274B005DC59A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71C74DD02298274B005DC59A /* PBXTargetDependency */,
+			);
+			name = IbakatvTests;
+			productName = IbakatvTests;
+			productReference = 71C74DCE2298274B005DC59A /* IbakatvTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		71C74DD82298274B005DC59A /* IbakatvUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71C74DE82298274B005DC59A /* Build configuration list for PBXNativeTarget "IbakatvUITests" */;
+			buildPhases = (
+				88DE60989BD6EF9B0F5BDCF5 /* [CP] Check Pods Manifest.lock */,
+				71C74DD52298274B005DC59A /* Sources */,
+				71C74DD62298274B005DC59A /* Frameworks */,
+				71C74DD72298274B005DC59A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71C74DDB2298274B005DC59A /* PBXTargetDependency */,
+			);
+			name = IbakatvUITests;
+			productName = IbakatvUITests;
+			productReference = 71C74DD92298274B005DC59A /* IbakatvUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71C74DAF22982747005DC59A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Nwudo Ebuka";
+				TargetAttributes = {
+					71C74DB622982747005DC59A = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					71C74DCD2298274B005DC59A = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 71C74DB622982747005DC59A;
+					};
+					71C74DD82298274B005DC59A = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 71C74DB622982747005DC59A;
+					};
+				};
+			};
+			buildConfigurationList = 71C74DB222982747005DC59A /* Build configuration list for PBXProject "Ibakatv" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71C74DAE22982746005DC59A;
+			productRefGroup = 71C74DB822982747005DC59A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71C74DB622982747005DC59A /* Ibakatv */,
+				71C74DCD2298274B005DC59A /* IbakatvTests */,
+				71C74DD82298274B005DC59A /* IbakatvUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71C74DB522982747005DC59A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71C74DC82298274B005DC59A /* LaunchScreen.storyboard in Resources */,
+				71C74DC52298274B005DC59A /* Assets.xcassets in Resources */,
+				71C74DC022982747005DC59A /* Main.storyboard in Resources */,
+				DD0358612487DA09001FBFC7 /* pet_adoption.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71C74DCC2298274B005DC59A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71C74DD72298274B005DC59A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		88DE60989BD6EF9B0F5BDCF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IbakatvUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FD1517F56764B59DDBB2073 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Ibakatv/Pods-Ibakatv-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ibakatv/Pods-Ibakatv-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD7319C2B04DD31EB0AC865A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ibakatv-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8D680A6501CF95414F7EE09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IbakatvTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71C74DB322982747005DC59A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71C74DFF22991F03005DC59A /* PageOneViewController.swift in Sources */,
+				DD03587924894197001FBFC7 /* PageThreeModel.swift in Sources */,
+				DD03587524892C72001FBFC7 /* PageTwoModel.swift in Sources */,
+				DD03587724893C9E001FBFC7 /* PageTwoControl.swift in Sources */,
+				DD03586B2487E201001FBFC7 /* Constants.swift in Sources */,
+				DD0358662487DE9B001FBFC7 /* PageOneController.swift in Sources */,
+				71CE4F9D229A8B960017BB48 /* PageThreeViewController.swift in Sources */,
+				DD03587B2489449B001FBFC7 /* PageThreeControl.swift in Sources */,
+				DD0358682487DEB1001FBFC7 /* PageOneModel.swift in Sources */,
+				71C74DF222982F5F005DC59A /* ViewControllerExtension.swift in Sources */,
+				71CE4F9B229A86EC0017BB48 /* PageTwoViewController.swift in Sources */,
+				71C74DC322982747005DC59A /* Ibakatv.xcdatamodeld in Sources */,
+				71C74DBD22982747005DC59A /* ViewController.swift in Sources */,
+				71CE4F9F229AA5B50017BB48 /* Snackbar.swift in Sources */,
+				71C74DBB22982747005DC59A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71C74DCA2298274B005DC59A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71C74DD32298274B005DC59A /* IbakatvTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71C74DD52298274B005DC59A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71C74DDE2298274B005DC59A /* IbakatvUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71C74DD02298274B005DC59A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71C74DB622982747005DC59A /* Ibakatv */;
+			targetProxy = 71C74DCF2298274B005DC59A /* PBXContainerItemProxy */;
+		};
+		71C74DDB2298274B005DC59A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71C74DB622982747005DC59A /* Ibakatv */;
+			targetProxy = 71C74DDA2298274B005DC59A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71C74DBE22982747005DC59A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71C74DBF22982747005DC59A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71C74DC62298274B005DC59A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71C74DC72298274B005DC59A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71C74DE02298274B005DC59A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71C74DE12298274B005DC59A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71C74DE32298274B005DC59A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBE917145BF13DD3ECF680A4 /* Pods-Ibakatv.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4HQ73439R9;
+				INFOPLIST_FILE = Ibakatv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.nuture.Ibakatv;
+				PRODUCT_NAME = softcom;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71C74DE42298274B005DC59A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 384C28EF509B41EF162BBD26 /* Pods-Ibakatv.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4HQ73439R9;
+				INFOPLIST_FILE = Ibakatv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.nuture.Ibakatv;
+				PRODUCT_NAME = softcom;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71C74DE62298274B005DC59A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7797F79E878B504DE4B801D /* Pods-IbakatvTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4KMPG82456;
+				INFOPLIST_FILE = IbakatvTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.nuture.IbakatvTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ibakatv.app/Ibakatv";
+			};
+			name = Debug;
+		};
+		71C74DE72298274B005DC59A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1102ADF3E9D8AE273F6A278C /* Pods-IbakatvTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4KMPG82456;
+				INFOPLIST_FILE = IbakatvTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.nuture.IbakatvTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ibakatv.app/Ibakatv";
+			};
+			name = Release;
+		};
+		71C74DE92298274B005DC59A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B03B935ECE26EB591EA02615 /* Pods-IbakatvUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4KMPG82456;
+				INFOPLIST_FILE = IbakatvUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.nuture.IbakatvUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ibakatv;
+			};
+			name = Debug;
+		};
+		71C74DEA2298274B005DC59A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C433A7528839B690285DE384 /* Pods-IbakatvUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4KMPG82456;
+				INFOPLIST_FILE = IbakatvUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.nuture.IbakatvUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ibakatv;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71C74DB222982747005DC59A /* Build configuration list for PBXProject "Ibakatv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71C74DE02298274B005DC59A /* Debug */,
+				71C74DE12298274B005DC59A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71C74DE22298274B005DC59A /* Build configuration list for PBXNativeTarget "Ibakatv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71C74DE32298274B005DC59A /* Debug */,
+				71C74DE42298274B005DC59A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71C74DE52298274B005DC59A /* Build configuration list for PBXNativeTarget "IbakatvTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71C74DE62298274B005DC59A /* Debug */,
+				71C74DE72298274B005DC59A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71C74DE82298274B005DC59A /* Build configuration list for PBXNativeTarget "IbakatvUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71C74DE92298274B005DC59A /* Debug */,
+				71C74DEA2298274B005DC59A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		71C74DC122982747005DC59A /* Ibakatv.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				71C74DC222982747005DC59A /* Ibakatv.xcdatamodel */,
+			);
+			currentVersion = 71C74DC222982747005DC59A /* Ibakatv.xcdatamodel */;
+			path = Ibakatv.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 71C74DAF22982747005DC59A /* Project object */;
+}

@@ -1,0 +1,979 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2198D83A6E1C66121D8F76A7F1421D43 /* Pods-IbakatvTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C3B9B297AEED55390AF3877DB7121D /* Pods-IbakatvTests-dummy.m */; };
+		22675F75DF44D23BEB53F06DCB7271AE /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 519F97488515DDE14F549C4A2F8CC247 /* SwiftyJSON-dummy.m */; };
+		2EED71F4CE841C171D7313A55FBE574F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		359FF18F00A2ACE1826F02A917F74C37 /* Pods-Ibakatv-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC2A64C974CAC4AA422686E4203EA6D8 /* Pods-Ibakatv-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A352514AC582913F8E3A1D549EBF908 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		4B0A7148883BB705CCE419F2E488B9A8 /* Pods-IbakatvTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25F7CF65DEEBB02144123296295CF8AE /* Pods-IbakatvTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D4A89BBE6742BA537AF8DF70B7F56AA /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE506ECE97701EBA44FDBFF401C1A04 /* SwiftyJSON.swift */; };
+		8EA0D165DE5903FDE2D52A84E786EDC3 /* Pods-Ibakatv-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E77F5ABE8140DC68511E745633EC56 /* Pods-Ibakatv-dummy.m */; };
+		A2DB9932DF20A2C1AC3609BB75E3DCAD /* Pods-IbakatvUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4208ECCF7E57CA367952D1C1F891558D /* Pods-IbakatvUITests-dummy.m */; };
+		B97E05DA48223DE9C3B581794DEA6FF4 /* Pods-IbakatvUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09C377584DF43FED1D080FE8E5BE3F76 /* Pods-IbakatvUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDC5667299383F49D5A054FA59EA5B62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		EAC099306D36AD5060276DC587D28D1F /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2545A43F22D33A594021F5DC0CEB3AD /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3C56F18570CFDE63A83C9EB11EC152A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		241833D3F0E29B798820F92F30243A35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4787C2C3F37AE9F5ECEEAEDABDF4512;
+			remoteInfo = SwiftyJSON;
+		};
+		BBEF1D5545A0C07AADD3BC6A41F0E148 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B5533E17AA865C5AFF9AC120C152B58;
+			remoteInfo = "Pods-Ibakatv";
+		};
+		C68AF5812E0F03835F153843AAF9125A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B5533E17AA865C5AFF9AC120C152B58;
+			remoteInfo = "Pods-Ibakatv";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09C377584DF43FED1D080FE8E5BE3F76 /* Pods-IbakatvUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IbakatvUITests-umbrella.h"; sourceTree = "<group>"; };
+		156DF0E7D2011423D91843EFA115E33D /* Pods-IbakatvTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IbakatvTests-frameworks.sh"; sourceTree = "<group>"; };
+		171E643326C98574338564EB376BA3EE /* Pods-Ibakatv.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ibakatv.debug.xcconfig"; sourceTree = "<group>"; };
+		1D29BF8A58D2154B9C4FC78B55F24D29 /* Pods_Ibakatv.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Ibakatv.framework; path = "Pods-Ibakatv.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25F7CF65DEEBB02144123296295CF8AE /* Pods-IbakatvTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IbakatvTests-umbrella.h"; sourceTree = "<group>"; };
+		2C028C598E4990CD4C0B33DA0425B624 /* Pods-IbakatvUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IbakatvUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		395694B4C7B82A1D7350BB0AB173C038 /* Pods-Ibakatv-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Ibakatv-acknowledgements.plist"; sourceTree = "<group>"; };
+		4208ECCF7E57CA367952D1C1F891558D /* Pods-IbakatvUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IbakatvUITests-dummy.m"; sourceTree = "<group>"; };
+		443C2D97BAB90013C35B827344BD5106 /* Pods-IbakatvTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IbakatvTests.modulemap"; sourceTree = "<group>"; };
+		4B97BC2EE68B47ED83556DE06CC74148 /* Pods-Ibakatv-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Ibakatv-resources.sh"; sourceTree = "<group>"; };
+		4C202BED7EB2C56B1FD39A076EA8F7E1 /* Pods-Ibakatv.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Ibakatv.modulemap"; sourceTree = "<group>"; };
+		519F97488515DDE14F549C4A2F8CC247 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6F4D44D202C0C41C7A2624772A26F07C /* Pods-IbakatvUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IbakatvUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		74F468A079E1F794FA79E880BB10DB18 /* Pods_IbakatvUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IbakatvUITests.framework; path = "Pods-IbakatvUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75E77F5ABE8140DC68511E745633EC56 /* Pods-Ibakatv-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Ibakatv-dummy.m"; sourceTree = "<group>"; };
+		7714A57EC96A4DF7E04B729C9376042D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B48BC8B7FC3411E9ACF46A825AEA582 /* Pods_IbakatvTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IbakatvTests.framework; path = "Pods-IbakatvTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83B82F63FAD4271C84265BEC3F20EEFF /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		85A5BC228D6DCC60278A31ECFE9AF5B4 /* Pods-Ibakatv-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Ibakatv-frameworks.sh"; sourceTree = "<group>"; };
+		87C3B9B297AEED55390AF3877DB7121D /* Pods-IbakatvTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IbakatvTests-dummy.m"; sourceTree = "<group>"; };
+		8B08E7613241E78132DC63CC4CCD4231 /* Pods-IbakatvUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IbakatvUITests-frameworks.sh"; sourceTree = "<group>"; };
+		8D8C7C1E45B6F3C011205F5D0EDAEE8C /* Pods-Ibakatv-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Ibakatv-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		970A73B9DF8B9EFE9A424A4A884746AA /* Pods-Ibakatv.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ibakatv.release.xcconfig"; sourceTree = "<group>"; };
+		9E65F0F42622729BF920A2EBFEABF41B /* Pods-IbakatvTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IbakatvTests-resources.sh"; sourceTree = "<group>"; };
+		BD877B359CC856F819BC8862C00FF37B /* Pods-IbakatvUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IbakatvUITests.modulemap"; sourceTree = "<group>"; };
+		BDE506ECE97701EBA44FDBFF401C1A04 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		C1FC4FC6DD05747F6D298D4341E7077F /* Pods-IbakatvTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IbakatvTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C9A570713EF677BB9E6CA68C2F4A5E70 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC2A64C974CAC4AA422686E4203EA6D8 /* Pods-Ibakatv-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Ibakatv-umbrella.h"; sourceTree = "<group>"; };
+		CDC5A8147948532B0477BA9D9651D602 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D21EF79A0DE4EDFC757EE852FE857C73 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		D2545A43F22D33A594021F5DC0CEB3AD /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		DD44ABE9F92D30AA8A287B61A28844F9 /* Pods-IbakatvUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IbakatvUITests-resources.sh"; sourceTree = "<group>"; };
+		E028D1E32539401BA3DE3AE926C919E5 /* Pods-IbakatvUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IbakatvUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E06C9D54749BEEA6900D67F8784B6588 /* Pods-IbakatvUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IbakatvUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E45022699EDA438A046AD43BC3926B01 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		ECEA92E182BA77F227E4165B4260E0FA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1C16DAFCE4576173D3E3C33EBF73C28 /* Pods-IbakatvTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IbakatvTests.release.xcconfig"; sourceTree = "<group>"; };
+		F91C95B42180514A19271C754CDE42D2 /* Pods-IbakatvTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IbakatvTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FDBE7467F9F8352DB97E07D1DE0CC80F /* Pods-IbakatvTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IbakatvTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FE9DA112DF0271E94A829A7DEEFC0B7E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		704C50A8B53E20D538DCE0BB5376734A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3C56F18570CFDE63A83C9EB11EC152A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BCF594443E9E67D78D797BD16C791E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC5667299383F49D5A054FA59EA5B62 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F521CAE3CB6467CD33C6AF71B24913B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A352514AC582913F8E3A1D549EBF908 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5A2E9012E44F101681FF4C6ABBC6C01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EED71F4CE841C171D7313A55FBE574F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B0E957CB331E04EE85ED36EC9FF597D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				66374964E5C83DCCB46064C9EAD35BA1 /* Pods-Ibakatv */,
+				B59AB676716BD09D2CBEBBF1DAF25345 /* Pods-IbakatvTests */,
+				CDDE606CBA342F2B4AE488724A48427E /* Pods-IbakatvUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		66374964E5C83DCCB46064C9EAD35BA1 /* Pods-Ibakatv */ = {
+			isa = PBXGroup;
+			children = (
+				7714A57EC96A4DF7E04B729C9376042D /* Info.plist */,
+				4C202BED7EB2C56B1FD39A076EA8F7E1 /* Pods-Ibakatv.modulemap */,
+				8D8C7C1E45B6F3C011205F5D0EDAEE8C /* Pods-Ibakatv-acknowledgements.markdown */,
+				395694B4C7B82A1D7350BB0AB173C038 /* Pods-Ibakatv-acknowledgements.plist */,
+				75E77F5ABE8140DC68511E745633EC56 /* Pods-Ibakatv-dummy.m */,
+				85A5BC228D6DCC60278A31ECFE9AF5B4 /* Pods-Ibakatv-frameworks.sh */,
+				4B97BC2EE68B47ED83556DE06CC74148 /* Pods-Ibakatv-resources.sh */,
+				CC2A64C974CAC4AA422686E4203EA6D8 /* Pods-Ibakatv-umbrella.h */,
+				171E643326C98574338564EB376BA3EE /* Pods-Ibakatv.debug.xcconfig */,
+				970A73B9DF8B9EFE9A424A4A884746AA /* Pods-Ibakatv.release.xcconfig */,
+			);
+			name = "Pods-Ibakatv";
+			path = "Target Support Files/Pods-Ibakatv";
+			sourceTree = "<group>";
+		};
+		70A8E4D3C62B6C203D238581DA091C21 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				BDE506ECE97701EBA44FDBFF401C1A04 /* SwiftyJSON.swift */,
+				A82FB0ABA1BB1D08F4FA0D68E7D324CB /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BD1E3C710F12F4B4C092FC8E2AD22110 /* Pods */,
+				89DA525769B91C00E8D6B886396BE118 /* Products */,
+				3B0E957CB331E04EE85ED36EC9FF597D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		89DA525769B91C00E8D6B886396BE118 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D29BF8A58D2154B9C4FC78B55F24D29 /* Pods_Ibakatv.framework */,
+				7B48BC8B7FC3411E9ACF46A825AEA582 /* Pods_IbakatvTests.framework */,
+				74F468A079E1F794FA79E880BB10DB18 /* Pods_IbakatvUITests.framework */,
+				CDC5A8147948532B0477BA9D9651D602 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A82FB0ABA1BB1D08F4FA0D68E7D324CB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECEA92E182BA77F227E4165B4260E0FA /* Info.plist */,
+				E45022699EDA438A046AD43BC3926B01 /* SwiftyJSON.modulemap */,
+				83B82F63FAD4271C84265BEC3F20EEFF /* SwiftyJSON.xcconfig */,
+				519F97488515DDE14F549C4A2F8CC247 /* SwiftyJSON-dummy.m */,
+				D21EF79A0DE4EDFC757EE852FE857C73 /* SwiftyJSON-prefix.pch */,
+				D2545A43F22D33A594021F5DC0CEB3AD /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		B59AB676716BD09D2CBEBBF1DAF25345 /* Pods-IbakatvTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9A570713EF677BB9E6CA68C2F4A5E70 /* Info.plist */,
+				443C2D97BAB90013C35B827344BD5106 /* Pods-IbakatvTests.modulemap */,
+				C1FC4FC6DD05747F6D298D4341E7077F /* Pods-IbakatvTests-acknowledgements.markdown */,
+				FDBE7467F9F8352DB97E07D1DE0CC80F /* Pods-IbakatvTests-acknowledgements.plist */,
+				87C3B9B297AEED55390AF3877DB7121D /* Pods-IbakatvTests-dummy.m */,
+				156DF0E7D2011423D91843EFA115E33D /* Pods-IbakatvTests-frameworks.sh */,
+				9E65F0F42622729BF920A2EBFEABF41B /* Pods-IbakatvTests-resources.sh */,
+				25F7CF65DEEBB02144123296295CF8AE /* Pods-IbakatvTests-umbrella.h */,
+				F91C95B42180514A19271C754CDE42D2 /* Pods-IbakatvTests.debug.xcconfig */,
+				F1C16DAFCE4576173D3E3C33EBF73C28 /* Pods-IbakatvTests.release.xcconfig */,
+			);
+			name = "Pods-IbakatvTests";
+			path = "Target Support Files/Pods-IbakatvTests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD1E3C710F12F4B4C092FC8E2AD22110 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70A8E4D3C62B6C203D238581DA091C21 /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CDDE606CBA342F2B4AE488724A48427E /* Pods-IbakatvUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE9DA112DF0271E94A829A7DEEFC0B7E /* Info.plist */,
+				BD877B359CC856F819BC8862C00FF37B /* Pods-IbakatvUITests.modulemap */,
+				6F4D44D202C0C41C7A2624772A26F07C /* Pods-IbakatvUITests-acknowledgements.markdown */,
+				2C028C598E4990CD4C0B33DA0425B624 /* Pods-IbakatvUITests-acknowledgements.plist */,
+				4208ECCF7E57CA367952D1C1F891558D /* Pods-IbakatvUITests-dummy.m */,
+				8B08E7613241E78132DC63CC4CCD4231 /* Pods-IbakatvUITests-frameworks.sh */,
+				DD44ABE9F92D30AA8A287B61A28844F9 /* Pods-IbakatvUITests-resources.sh */,
+				09C377584DF43FED1D080FE8E5BE3F76 /* Pods-IbakatvUITests-umbrella.h */,
+				E028D1E32539401BA3DE3AE926C919E5 /* Pods-IbakatvUITests.debug.xcconfig */,
+				E06C9D54749BEEA6900D67F8784B6588 /* Pods-IbakatvUITests.release.xcconfig */,
+			);
+			name = "Pods-IbakatvUITests";
+			path = "Target Support Files/Pods-IbakatvUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		10014C6884E2A9BFDA7886CE2794F31E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				359FF18F00A2ACE1826F02A917F74C37 /* Pods-Ibakatv-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12CC5DFB93B9DDB7AE87D5CBD7F0E1AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B0A7148883BB705CCE419F2E488B9A8 /* Pods-IbakatvTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC5B06B3E3156D182621FBC9480CDE0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B97E05DA48223DE9C3B581794DEA6FF4 /* Pods-IbakatvUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0A068A26C3C8EA283EEA9DB0C2CCB6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC099306D36AD5060276DC587D28D1F /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2C8C8F25A9E3B97E4790F1AC32CD675A /* Pods-IbakatvTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1534B2E9D086412C4AC8CDC41527AE7 /* Build configuration list for PBXNativeTarget "Pods-IbakatvTests" */;
+			buildPhases = (
+				12CC5DFB93B9DDB7AE87D5CBD7F0E1AB /* Headers */,
+				9C1F5501EEB44DC98FBB889F2336AC3F /* Sources */,
+				7BCF594443E9E67D78D797BD16C791E5 /* Frameworks */,
+				55ECFBF03F963600F7A2F5607A9C5C8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F5514635D7BCD7E116CAD9359B71066 /* PBXTargetDependency */,
+			);
+			name = "Pods-IbakatvTests";
+			productName = "Pods-IbakatvTests";
+			productReference = 7B48BC8B7FC3411E9ACF46A825AEA582 /* Pods_IbakatvTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6B5533E17AA865C5AFF9AC120C152B58 /* Pods-Ibakatv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3437FFC560B5A6AAB2794B1A512CF9F /* Build configuration list for PBXNativeTarget "Pods-Ibakatv" */;
+			buildPhases = (
+				10014C6884E2A9BFDA7886CE2794F31E /* Headers */,
+				152FD4DF22FEC051BB13311E89842A02 /* Sources */,
+				704C50A8B53E20D538DCE0BB5376734A /* Frameworks */,
+				A5CDE286AB92B2573E248E2DC900B8C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A04552828910ED448FA7725F7CBDC0F /* PBXTargetDependency */,
+			);
+			name = "Pods-Ibakatv";
+			productName = "Pods-Ibakatv";
+			productReference = 1D29BF8A58D2154B9C4FC78B55F24D29 /* Pods_Ibakatv.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A4787C2C3F37AE9F5ECEEAEDABDF4512 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 033F6E7BF661567B52DE480B996423E1 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				DB0A068A26C3C8EA283EEA9DB0C2CCB6 /* Headers */,
+				20B73EECEDB072B68BA266F5E7FBDD35 /* Sources */,
+				E5A2E9012E44F101681FF4C6ABBC6C01 /* Frameworks */,
+				21F79545BA689931C0761286AE1EB26F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = CDC5A8147948532B0477BA9D9651D602 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DD402EB3F2F544E50140D9C94955D0C4 /* Pods-IbakatvUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FCB64338D00B3B71771DF86DD0AF02F /* Build configuration list for PBXNativeTarget "Pods-IbakatvUITests" */;
+			buildPhases = (
+				3CC5B06B3E3156D182621FBC9480CDE0 /* Headers */,
+				450988CEE174C233CA22DCD0EBA5C800 /* Sources */,
+				7F521CAE3CB6467CD33C6AF71B24913B /* Frameworks */,
+				07227B3DB5BAB915408EF7A002F9EC2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA047CE1AB45A9EB06E165D60D52B685 /* PBXTargetDependency */,
+			);
+			name = "Pods-IbakatvUITests";
+			productName = "Pods-IbakatvUITests";
+			productReference = 74F468A079E1F794FA79E880BB10DB18 /* Pods_IbakatvUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 89DA525769B91C00E8D6B886396BE118 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B5533E17AA865C5AFF9AC120C152B58 /* Pods-Ibakatv */,
+				2C8C8F25A9E3B97E4790F1AC32CD675A /* Pods-IbakatvTests */,
+				DD402EB3F2F544E50140D9C94955D0C4 /* Pods-IbakatvUITests */,
+				A4787C2C3F37AE9F5ECEEAEDABDF4512 /* SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07227B3DB5BAB915408EF7A002F9EC2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21F79545BA689931C0761286AE1EB26F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55ECFBF03F963600F7A2F5607A9C5C8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5CDE286AB92B2573E248E2DC900B8C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		152FD4DF22FEC051BB13311E89842A02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EA0D165DE5903FDE2D52A84E786EDC3 /* Pods-Ibakatv-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20B73EECEDB072B68BA266F5E7FBDD35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22675F75DF44D23BEB53F06DCB7271AE /* SwiftyJSON-dummy.m in Sources */,
+				8D4A89BBE6742BA537AF8DF70B7F56AA /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		450988CEE174C233CA22DCD0EBA5C800 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2DB9932DF20A2C1AC3609BB75E3DCAD /* Pods-IbakatvUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C1F5501EEB44DC98FBB889F2336AC3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2198D83A6E1C66121D8F76A7F1421D43 /* Pods-IbakatvTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F5514635D7BCD7E116CAD9359B71066 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Ibakatv";
+			target = 6B5533E17AA865C5AFF9AC120C152B58 /* Pods-Ibakatv */;
+			targetProxy = C68AF5812E0F03835F153843AAF9125A /* PBXContainerItemProxy */;
+		};
+		6A04552828910ED448FA7725F7CBDC0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = A4787C2C3F37AE9F5ECEEAEDABDF4512 /* SwiftyJSON */;
+			targetProxy = 241833D3F0E29B798820F92F30243A35 /* PBXContainerItemProxy */;
+		};
+		CA047CE1AB45A9EB06E165D60D52B685 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Ibakatv";
+			target = 6B5533E17AA865C5AFF9AC120C152B58 /* Pods-Ibakatv */;
+			targetProxy = BBEF1D5545A0C07AADD3BC6A41F0E148 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07529D60CEE8956DE8089CF0E4F80866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E06C9D54749BEEA6900D67F8784B6588 /* Pods-IbakatvUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IbakatvUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IbakatvUITests/Pods-IbakatvUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2AB2642382B33A65C2A58CD5DC81B4FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 171E643326C98574338564EB376BA3EE /* Pods-Ibakatv.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Ibakatv/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Ibakatv/Pods-Ibakatv.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		48FD8E8A61C1EAE7980FA093D870B2BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83B82F63FAD4271C84265BEC3F20EEFF /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6FD750498585F33E8C15A4E7305A86EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83B82F63FAD4271C84265BEC3F20EEFF /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		785672DD5A223D7F9C148DFB9C55BE22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 970A73B9DF8B9EFE9A424A4A884746AA /* Pods-Ibakatv.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Ibakatv/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Ibakatv/Pods-Ibakatv.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8CAAD1F9FA71E1302B05D99F8FFB373F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9ED463A01240DD8ED0D870C740DD0E27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E028D1E32539401BA3DE3AE926C919E5 /* Pods-IbakatvUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IbakatvUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IbakatvUITests/Pods-IbakatvUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AC908DDE40D43B8C48E448D4AC139ACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F91C95B42180514A19271C754CDE42D2 /* Pods-IbakatvTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IbakatvTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IbakatvTests/Pods-IbakatvTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DCA4B42EF7E1D06BCF224B3F756ABC70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1C16DAFCE4576173D3E3C33EBF73C28 /* Pods-IbakatvTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IbakatvTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IbakatvTests/Pods-IbakatvTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FFF583FA7420DC0AD49940362019A032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		033F6E7BF661567B52DE480B996423E1 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FD750498585F33E8C15A4E7305A86EC /* Debug */,
+				48FD8E8A61C1EAE7980FA093D870B2BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FCB64338D00B3B71771DF86DD0AF02F /* Build configuration list for PBXNativeTarget "Pods-IbakatvUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ED463A01240DD8ED0D870C740DD0E27 /* Debug */,
+				07529D60CEE8956DE8089CF0E4F80866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF583FA7420DC0AD49940362019A032 /* Debug */,
+				8CAAD1F9FA71E1302B05D99F8FFB373F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1534B2E9D086412C4AC8CDC41527AE7 /* Build configuration list for PBXNativeTarget "Pods-IbakatvTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC908DDE40D43B8C48E448D4AC139ACA /* Debug */,
+				DCA4B42EF7E1D06BCF224B3F756ABC70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3437FFC560B5A6AAB2794B1A512CF9F /* Build configuration list for PBXNativeTarget "Pods-Ibakatv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AB2642382B33A65C2A58CD5DC81B4FE /* Debug */,
+				785672DD5A223D7F9C148DFB9C55BE22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
